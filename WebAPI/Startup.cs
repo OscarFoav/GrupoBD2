@@ -17,6 +17,7 @@ using Persistencia;
 
 namespace WebAPI
 {
+    // Modificación para Git
     public class Startup
     {
         public Startup(IConfiguration configuration)
