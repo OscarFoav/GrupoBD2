@@ -26,10 +26,28 @@ namespace WebAPI.Controllers
         }
 
         // http://localhost:5665/api/GrupoBD2/Acceso a Check_MK
-        [HttpGet("{Consulta}")]
-        public async Task<ActionResult<TblGrupoBD_fs>> Detalle(string Consulta)
+        [HttpGet("{consulta}")]
+        public async Task<ActionResult<TblGrupoBD_fs>> Detalle(string consulta)
         {
-            return await _mediator.Send(new ConsultaIdGrupoBD_fs.ConsultaUnicaGrupoBD_fs{ Id = Consulta });
+            return await _mediator.Send(new ConsultaIdGrupoBD_fs.ConsultaUnicaGrupoBD_fs{ Consulta = consulta });
         }
+
+        // http://localhost:5665/api/GrupoBD2/Consulta 3
+        [HttpPost]
+        public async Task<ActionResult<Unit>> Crear(NuevoGrupoBD_fs.Ejecuta data){
+            return await _mediator.Send(data);
+        }
+
+        [HttpPut("{Consulta}")]
+        public async Task<ActionResult<Unit>> Editar(string consulta, EditarGrupoBD_fs.Ejecuta data){
+            data.Consulta = consulta;
+            return await _mediator.Send(data);
+        }
+
+        [HttpDelete("{consulta}")]
+        public async Task<ActionResult<Unit>> Eliminar(string consulta){
+            return await _mediator.Send(new EliminarGrupoBD_fs.Ejecuta{Consulta = consulta});
+        }
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {}
+    "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+    "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\GrupoBD2\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "h:\\GrupoBD2\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj",
+        "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "H:\\GrupoBD2\\Dominio\\obj\\",
+        "outputPath": "h:\\GrupoBD2\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

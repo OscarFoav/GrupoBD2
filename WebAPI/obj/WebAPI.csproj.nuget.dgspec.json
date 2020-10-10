@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\GrupoBD2\\WebAPI\\WebAPI.csproj": {}
+    "h:\\GrupoBD2\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {
+    "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "H:\\GrupoBD2\\Aplicacion\\obj\\",
+        "outputPath": "h:\\GrupoBD2\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
-                "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj"
+              "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+                "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj"
               },
-              "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj"
+              "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.3, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"
@@ -73,14 +77,14 @@
         }
       }
     },
-    "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+    "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\GrupoBD2\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "h:\\GrupoBD2\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj",
+        "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "H:\\GrupoBD2\\Dominio\\obj\\",
+        "outputPath": "h:\\GrupoBD2\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -131,14 +135,14 @@
         }
       }
     },
-    "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
+    "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
+        "projectPath": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "H:\\GrupoBD2\\Persistencia\\obj\\",
+        "outputPath": "h:\\GrupoBD2\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -157,8 +161,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
-                "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj"
+              "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+                "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -205,14 +209,14 @@
         }
       }
     },
-    "H:\\GrupoBD2\\WebAPI\\WebAPI.csproj": {
+    "h:\\GrupoBD2\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\GrupoBD2\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "h:\\GrupoBD2\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "H:\\GrupoBD2\\WebAPI\\WebAPI.csproj",
+        "projectPath": "h:\\GrupoBD2\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "H:\\GrupoBD2\\WebAPI\\obj\\",
+        "outputPath": "h:\\GrupoBD2\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -231,8 +235,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj"
+              "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -253,6 +257,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

@@ -6232,11 +6232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
+      "projectPath": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-      "outputPath": "H:\\GrupoBD2\\Persistencia\\obj\\",
+      "outputPath": "h:\\GrupoBD2\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6255,8 +6255,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
-              "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj"
+            "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+              "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj"
             }
           }
         }

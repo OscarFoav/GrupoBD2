@@ -11,7 +11,7 @@ namespace Aplicacion.GrupoBD
     {
         
         public class ConsultaUnicaGrupoBD_fs : IRequest<TblGrupoBD_fs>{
-            public string Id {get;set;}            
+            public string Consulta {get;set;}            
         }
 
         public class Manejador : IRequestHandler<ConsultaUnicaGrupoBD_fs, TblGrupoBD_fs>
@@ -24,7 +24,7 @@ namespace Aplicacion.GrupoBD
                         
             public async Task<TblGrupoBD_fs> Handle(ConsultaUnicaGrupoBD_fs request, CancellationToken cancellationToken)
             {
-                var consulta = await _context.TblGrupoBD_fs.FindAsync(request.Id);
+                var consulta = await _context.TblGrupoBD_fs.FindAsync(request.Consulta);
                 return consulta;
             }
         }

@@ -8,8 +8,9 @@ namespace Dominio
         public string Consulta { get; set; }
         public string DescripcionConsulta { get; set; }
         public string TipoBD { get; set; }
+        public string VersionBD {get;set;}
         public string Entorno { get; set; }
-        public DateTime UltimaModificacion { get; set; }
+        public DateTime? UltimaModificacion { get; set; }
         public string UltimoUsuario { get; set; }
 
     }

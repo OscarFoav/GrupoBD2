@@ -67,3 +67,7 @@ H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Persistencia.pdb
 H:\GrupoBD2\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 H:\GrupoBD2\Webapi\bin\Debug\netcoreapp3.1\MediatR.dll
 H:\GrupoBD2\Webapi\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+H:\GrupoBD2\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
