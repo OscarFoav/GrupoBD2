@@ -1,6 +1,8 @@
 using System;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using Aplicacion.ManejadorError;
 using FluentValidation;
 using MediatR;
 using Persistencia;
@@ -40,10 +42,11 @@ namespace Aplicacion.GrupoBD
             {
                 var tblGrupoBD = await _context.TblGrupoBD_fs.FindAsync(request.Consulta);
                 if(tblGrupoBD==null){
-                    throw new Exception("El registro no existe");
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new {tabla_grupoBD_fs = "No se encontró este registro"});
                 }
 
                 // las ?? significan que si el valor no ha cambiado, no graba ese dato
+                // Consulta no se modifica si se usa Postman y se incluye dentro de los {} ¿hay que retocar esta rutina más adelante?
                 tblGrupoBD.Consulta = request.Consulta ?? tblGrupoBD.Consulta;
                 tblGrupoBD.DescripcionConsulta = request.DescripcionConsulta ?? tblGrupoBD.DescripcionConsulta;
                 tblGrupoBD.TipoBD = request.TipoBD ?? tblGrupoBD.TipoBD;

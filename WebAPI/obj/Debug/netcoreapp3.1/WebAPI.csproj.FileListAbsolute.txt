@@ -71,3 +71,8 @@ H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 H:\GrupoBD2\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll

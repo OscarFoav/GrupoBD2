@@ -2,7 +2,7 @@ using System;
 
 namespace Dominio
 {
-    public class TblServidoresOracle_GRID12
+    public class TblDestinoSSIS_GRID12
     {
         public string INSTANCE { get; set; }
         public string HOST_NAME { get; set; }

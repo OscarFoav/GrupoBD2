@@ -1,0 +1,15 @@
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.deps.json
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.json
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.runtimeconfig.dev.json
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.dll
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Persistencia.pdb
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Dominio.dll
+H:\GrupoBD2\Persistencia\bin\Debug\netcoreapp3.1\Dominio.pdb
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csprojAssemblyReference.cache
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfoInputs.cache
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.AssemblyInfo.cs
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CoreCompileInputs.cache
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.csproj.CopyComplete
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.dll
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.pdb
+H:\GrupoBD2\Persistencia\obj\Debug\netcoreapp3.1\Persistencia.genruntimeconfig.cache

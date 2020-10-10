@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {}
+    "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {
+    "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "h:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "h:\\GrupoBD2\\Aplicacion\\obj\\",
+        "outputPath": "H:\\GrupoBD2\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,20 +21,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
-                "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj"
+              "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+                "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj"
               },
-              "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj"
+              "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -46,7 +46,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -55,12 +55,6 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -73,18 +67,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+    "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\GrupoBD2\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "H:\\GrupoBD2\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj",
+        "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "h:\\GrupoBD2\\Dominio\\obj\\",
+        "outputPath": "H:\\GrupoBD2\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,14 +96,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -112,13 +114,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -131,18 +131,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
+    "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "h:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
+        "projectPath": "H:\\GrupoBD2\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
-        "outputPath": "h:\\GrupoBD2\\Persistencia\\obj\\",
+        "outputPath": "H:\\GrupoBD2\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -152,17 +160,17 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "h:\\GrupoBD2\\Dominio\\Dominio.csproj": {
-                "projectPath": "h:\\GrupoBD2\\Dominio\\Dominio.csproj"
+              "H:\\GrupoBD2\\Dominio\\Dominio.csproj": {
+                "projectPath": "H:\\GrupoBD2\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -174,25 +182,19 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -205,6 +207,14 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }

@@ -1,6 +1,8 @@
 using System;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using Aplicacion.ManejadorError;
 using MediatR;
 using Persistencia;
 
@@ -20,12 +22,13 @@ namespace Aplicacion.GrupoBD
             }
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var consulta = await  _context.TblGrupoBD_fs.FindAsync(request.Consulta);
-                if(consulta==null){
-                    throw new Exception("No se puede eliminar la fila");
+                var tblGrupoBD = await  _context.TblGrupoBD_fs.FindAsync(request.Consulta);
+                if(tblGrupoBD==null){
+                    throw new ManejadorExcepcion(HttpStatusCode.NotFound, new {tabla_grupoBD_fs = "No se encontró este registro"});
+                    // throw new Exception("No se puede eliminar la fila");
                 }
                 
-                _context.Remove(consulta);
+                _context.Remove(tblGrupoBD);
                 var resultado = await _context.SaveChangesAsync();
 
                 if(resultado>0){
