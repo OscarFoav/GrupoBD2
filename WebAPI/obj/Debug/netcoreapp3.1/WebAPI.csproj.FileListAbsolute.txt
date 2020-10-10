@@ -38,16 +38,8 @@ H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstract
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
