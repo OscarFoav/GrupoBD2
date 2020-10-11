@@ -1,0 +1,16 @@
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.deps.json
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.dll
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.pdb
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.dll
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Dominio.dll
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.dll
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Dominio.pdb
+H:\GrupoBD2\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.pdb
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csprojAssemblyReference.cache
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfoInputs.cache
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfo.cs
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreCompileInputs.cache
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
+H:\GrupoBD2\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb

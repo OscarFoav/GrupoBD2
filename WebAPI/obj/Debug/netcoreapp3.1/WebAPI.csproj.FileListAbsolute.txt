@@ -68,3 +68,12 @@ H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Key
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Seguridad.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Seguridad.pdb
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
