@@ -58,7 +58,7 @@ namespace Aplicacion.GrupoBD
                     return Unit.Value;
                 }
 
-                throw new Exception("No se insertó ningún dato");
+                throw new Exception("No se ha insertado ningún dato");
             }
         }
     }

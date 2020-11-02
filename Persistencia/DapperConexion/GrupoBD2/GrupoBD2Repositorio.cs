@@ -23,7 +23,10 @@ namespace Persistencia.DapperConexion.GrupoBD2
                   throw new System.NotImplementedException();
             }
 
-            public async Task<int> NuevoGrupoBD2(GrupoBD2Model parametros)
+            public async Task<int> NuevoGrupoBD2(string Consulta, Guid ConsultaFSID,
+                                                string DescripcionConsulta, string TipoBD,
+                                                string VersionBD, string Entorno, 
+                                                DateTime UltimaModificacion, string UltimoUsuario)
             {
                   var storeProcedure = "usp_GrupoBD_Nuevo";
                   try
@@ -33,14 +36,14 @@ namespace Persistencia.DapperConexion.GrupoBD2
                               storeProcedure,
                               new
                               {
-                                    Consulta = parametros.Consulta,
+                                    Consulta = Consulta,
                                     ConsultaFSID = Guid.NewGuid(),
-                                    DescripcionConsulta = parametros.DescripcionConsulta,
-                                    TipoBD = parametros.TipoBD,
-                                    VersionBD = parametros.VersionBD,
-                                    Entorno = parametros.Entorno,
+                                    DescripcionConsulta = DescripcionConsulta,
+                                    TipoBD = TipoBD,
+                                    VersionBD = VersionBD,
+                                    Entorno = Entorno,
                                     UltimaModificacion = DateTime.Now,
-                                    UltimoUsuario = parametros.UltimoUsuario
+                                    UltimoUsuario = UltimoUsuario
                               },
                               commandType: CommandType.StoredProcedure
                               );
@@ -49,8 +52,8 @@ namespace Persistencia.DapperConexion.GrupoBD2
                   }
                   catch (Exception e)
                   {
-                        throw new Exception("No se ha podido instar el nuevo registro", e);
-                  }                  
+                        throw new Exception("No se ha podido guardar el nuevo registro", e);
+                  }
             }
 
             public async Task<IEnumerable<GrupoBD2Model>> ObtenerLista()
@@ -73,14 +76,14 @@ namespace Persistencia.DapperConexion.GrupoBD2
                   return grupoDB2List;
             }
 
-            public async Task<IEnumerable<GrupoBD2Model>> ObtenerListaSinDescripcionConsulta()
+            public async Task<IEnumerable<GrupoBD2Model_SinDescripcion>> ObtenerGrupoBD2_SinDescripcion()
             {
-                  IEnumerable<GrupoBD2Model> grupoDB2List = null;
+                  IEnumerable<GrupoBD2Model_SinDescripcion> grupoDB2List = null;
                   var storeProcedure = "usp_Obtener_GrupoBD2_SinDescripcionConsulta";
                   try
                   {
                         var connection = _factoryConnection.GetConnection();
-                        grupoDB2List = await connection.QueryAsync<GrupoBD2Model>(storeProcedure, null, commandType: CommandType.StoredProcedure);
+                        grupoDB2List = await connection.QueryAsync<GrupoBD2Model_SinDescripcion>(storeProcedure, null, commandType: CommandType.StoredProcedure);
                   }
                   catch (Exception e)
                   {
