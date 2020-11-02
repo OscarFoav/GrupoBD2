@@ -20,5 +20,11 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<UsuarioData>> Registrar(Registrar.Ejecuta parametros){
             return await Mediator.Send(parametros);
         }
+
+        // http://localhost:5665/api/Usuario
+        [HttpGet]
+        public async Task<ActionResult<UsuarioData>> DevolverUsuario(){
+            return await Mediator.Send(new UsuarioActual.Ejecutar());
+        }
     }
 }

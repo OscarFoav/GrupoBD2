@@ -25,6 +25,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Persistencia;
+using Persistencia.DapperConexion;
+using Persistencia.DapperConexion.GrupoBD2;
 using Seguridad;
 using WebAPI.Middleware;
 
@@ -47,6 +49,10 @@ namespace WebAPI
                 // la cadena de conexión se guarda en appsettings.json de WebAPI / Properties
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            // Acceso para Dapper a SQL Server
+            services.AddOptions();
+            services.Configure<ConexionConfiguracion>(Configuration.GetSection("ConnectionStrings"));
 
             services.AddMediatR(typeof(ConsultaGrupoBD_fs.Manejador).Assembly);
             services.AddControllers(opt => {
@@ -73,6 +79,11 @@ namespace WebAPI
             });
             
             services.AddScoped<IJwtGenerador, JwtGenerador>();
+            services.AddScoped<IUsuarioSesion, UsuarioSesion>();
+
+            // relacionar WebAPI con DapperConexion y, debajo, con GrupoBD2
+            services.AddTransient<IFactoryConnection, FactoryConnection>();
+            services.AddScoped<IGrupoBD2, GrupoBD2Repositorio>();
         }
         
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

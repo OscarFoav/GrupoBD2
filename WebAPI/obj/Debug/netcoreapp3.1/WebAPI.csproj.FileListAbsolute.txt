@@ -77,3 +77,4 @@ H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\GrupoBD2\WebAPI\bin\Debug\netcoreapp3.1\Dapper.dll

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0aQ1kXyINdStswh8aZpI4a2KoWVKqdFDX9uR0V+YY1NWjni0Ht/5tKGqQ8Y8OsghGCJ0IeBDaeAW9CLVF5WNuQ==",
+  "dgSpecHash": "fpHRjiRRRmig2/OFnWQ6kUk0oA9Pby7GaPBNBzkqPX6uCQ3F5wTOqNATzjnupHMDd8secwt/Ah56V1XLL1RyIg==",
   "success": true,
   "projectFilePath": "H:\\GrupoBD2\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Oscar\\.nuget\\packages\\dapper\\2.0.4\\dapper.2.0.4.nupkg.sha512",
     "C:\\Users\\Oscar\\.nuget\\packages\\fluentvalidation\\8.6.3\\fluentvalidation.8.6.3.nupkg.sha512",
     "C:\\Users\\Oscar\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.6.3\\fluentvalidation.aspnetcore.8.6.3.nupkg.sha512",
     "C:\\Users\\Oscar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.3\\fluentvalidation.dependencyinjectionextensions.8.6.3.nupkg.sha512",
