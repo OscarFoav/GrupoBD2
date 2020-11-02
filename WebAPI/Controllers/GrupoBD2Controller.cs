@@ -4,6 +4,8 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Persistencia.DapperConexion.GrupoBD2;
 using Aplicacion.GrupoBD2;
+using System;
+
 namespace WebAPI.Controllers
 {
       public class GrupoBD2Controller : MiControllerBase
@@ -26,5 +28,10 @@ namespace WebAPI.Controllers
                 return await Mediator.Send(data);
             }
 
+            [HttpPut("{ConsultaFSID}")]
+            public async Task<ActionResult<Unit>> Actualizar(Guid ConsultaFSID, EditarGrupoBD2.Ejecuta data){
+                  data.ConsultaFSID = ConsultaFSID;
+                  return await Mediator.Send(data);
+            }
       }
 }

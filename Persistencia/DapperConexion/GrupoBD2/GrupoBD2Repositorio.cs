@@ -13,9 +13,37 @@ namespace Persistencia.DapperConexion.GrupoBD2
             {
                   _factoryConnection = factoryConnection;
             }
-            public Task<int> ActualizaGrupoBD2(GrupoBD2Model parametros)
+            public async Task<int> ActualizaGrupoBD2(string consulta, Guid consultaFSID,
+                                                string descripcionConsulta, string tipoBD,
+                                                string versionBD, string entorno,
+                                                DateTime ultimaModificacion, string ultimoUsuario)
             {
-                  throw new System.NotImplementedException();
+                  var storeProcedure = "usp_GrupoBD2_editar"; 
+                  try
+                  {
+                        var connection = _factoryConnection.GetConnection();
+                        var resultados = await connection.ExecuteAsync(
+                              storeProcedure,
+                              new
+                              {
+                                    Consulta = consulta,
+                                    ConsultaFSID = consultaFSID,
+                                    DescripcionConsulta = descripcionConsulta,
+                                    TipoBD = tipoBD,
+                                    VersionBD = versionBD,
+                                    Entorno = entorno,
+                                    UltimaModificacion = ultimaModificacion,
+                                    UltimoUsuario = ultimoUsuario
+                              },
+                              commandType: CommandType.StoredProcedure
+                        );
+                        _factoryConnection.CloseConnection();
+                        return resultados;
+                  }
+                  catch (Exception e)
+                  {
+                        throw new Exception("No se han podido guardar los cambios", e);
+                  }
             }
 
             public Task<int> EliminaGrupoBD2(string consulta)
@@ -25,7 +53,7 @@ namespace Persistencia.DapperConexion.GrupoBD2
 
             public async Task<int> NuevoGrupoBD2(string Consulta, Guid ConsultaFSID,
                                                 string DescripcionConsulta, string TipoBD,
-                                                string VersionBD, string Entorno, 
+                                                string VersionBD, string Entorno,
                                                 DateTime UltimaModificacion, string UltimoUsuario)
             {
                   var storeProcedure = "usp_GrupoBD_Nuevo";

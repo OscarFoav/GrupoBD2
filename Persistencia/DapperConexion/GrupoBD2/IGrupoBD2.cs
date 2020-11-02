@@ -17,7 +17,10 @@ namespace Persistencia.DapperConexion.GrupoBD2
                                     string VersionBD, string Entorno, 
                                     DateTime UltimaModificacion, string UltimoUsuario);
 
-         Task<int> ActualizaGrupoBD2(GrupoBD2Model parametros);
+         Task<int> ActualizaGrupoBD2(string Consulta, Guid ConsultaFSID,
+                                    string DescripcionConsulta, string TipoBD,
+                                    string VersionBD, string Entorno, 
+                                    DateTime UltimaModificacion, string UltimoUsuario);
 
          Task<int> EliminaGrupoBD2(string consulta);
     }
